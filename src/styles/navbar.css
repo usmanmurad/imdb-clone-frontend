@@ -1,0 +1,68 @@
+.the_navbar {
+  background-color: rgb(18, 18, 18) !important;
+  position: fixed;
+}
+
+.nav_tag {
+  background-color: #f5c518;
+  color: #111111 !important;
+  font-weight: bolder;
+  padding: 0px 7px 0px 7px;
+  border-radius: 5px;
+}
+
+.search_bar{
+  flex-grow: 1;
+  background-color: #fff;
+  /*align-items: center;*/
+  border-radius: 5px;
+  position: relative;
+}
+
+.search .dropdown-toggle{
+  color: #000 !important;
+  border: none;
+  border-right: 1px solid #999 !important;
+}
+
+.search input{
+  border: none;
+  outline: none;
+}
+
+.menu_button {
+  color: white;
+  margin-right: 10px;
+}
+
+.nav_item {
+  color: white;
+  margin: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.nav_item:hover {
+  background-color: #212529;
+}
+
+
+
+.user_icon {
+  height: 100%;
+  align-self: center;
+  color: white;
+  margin-left: 10px;
+  font-size: large;
+}
+
+
+.sign_in {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.watchlist {
+  font-size: 1.5rem !important;
+}

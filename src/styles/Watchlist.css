@@ -1,0 +1,36 @@
+.watchlist_container {
+    width: 40%;
+    margin-left: 20%;
+    border-left: 1px solid gray;
+    border-right: 2px solid gray;
+    margin-top: 60px;
+    background-color: #e7e9ec;
+}
+
+.watchlist_heading {
+    color: #212529;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+.watchlist_list {
+    list-style-type: none;
+    width: 100%;
+}
+
+.watchlist_movie {
+    display: flex;
+}
+
+.desc_container {
+    margin: 5px;
+}
+
+hr.solid {
+  border-top: 1px solid black;
+}
+
+.watchlist_movie_name {
+    color: #136cb2;
+
+}

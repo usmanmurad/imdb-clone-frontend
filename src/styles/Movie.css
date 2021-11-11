@@ -1,0 +1,230 @@
+.movie {
+    margin-top: 55px;
+    background-color: rgb(31, 31, 31);
+}
+
+.bottom_div {
+    height: 200px;
+}
+
+.topic_div {
+    background-color: rgba(255, 255, 255, 0.08);
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.movie_content {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.img_div {
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.title_div {
+    display: flex;
+    width: 100%;
+}
+
+.imdb_rating {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 10%;
+}
+
+.movie_title_main {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    width: 80%;
+}
+
+.movie_rating_main {
+    margin-bottom: 10px;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.yellow_rating_star {
+    color: #f5c518;
+    font-size: 1.5rem;
+}
+
+.rating_main {
+    font-size: 1.5rem;
+}
+
+.movie_image_main {
+    width: 25%;
+    height: 100%;
+}
+
+.trailer_iframe {
+    width: 65%;
+    height: 100%;
+}
+
+.rating_label {
+    border-bottom-color: rgba(255, 255, 255, 0.7);
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgba(255, 255, 255, 0.7);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgba(255, 255, 255, 0.7);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgba(255, 255, 255, 0.7);
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 600;
+    height: 16px;
+    letter-spacing: 2px;
+    line-height: 16px;
+    margin-bottom: 4px;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+    text-transform: none;
+    vertical-align: baseline;
+    white-space: nowrap;
+    width: 100px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.genre_container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.genre {
+    margin: 4px;
+    color: white;
+    background-color: black;
+    border: white solid 1px;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+.movie_desc {
+    font-size: 1rem;
+    color: white;
+    width: 60%;
+}
+
+.hr.solid {
+    border-top: 2px solid #bbbbbb;
+    width: 60%;
+}
+
+.name_div {
+    width: 60%;
+}
+
+.name_label {
+    color: white;
+    font-weight: bold;
+}
+
+.name {
+    color: royalblue;
+    margin-left: 20px;
+}
+
+.movie_rater {
+}
+
+.rate_button {
+    background-color: rgb(31, 31, 31);
+    color: royalblue;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.rate_button:hover {
+    background-color: #212529;
+}
+
+.movie_rating_main:hover {
+    background-color: #212529;
+}
+
+
+.modal_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    width: 100%;
+    color: royalblue;
+}
+
+.modal_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.modal_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.add_watchlist {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: none;
+    width: 20%;
+    margin-top: 6px;
+    border-radius: 3px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.toast_message {
+    background-color: white;
+    border: none;
+    width: 20%;
+    margin-top: 6px;
+    border-radius: 3px;
+    color: darkblue;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.add_watchlist:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+.genre_div {
+    width: 100%;
+    display: flex;
+}

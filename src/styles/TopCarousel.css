@@ -1,0 +1,116 @@
+
+.topCarousel {
+    margin-top: 15px;
+    display: flex;
+    align-self: center;
+    width: 76%;
+    margin-left: 12%;
+}
+
+.carouselItem {
+    height: 570px !important;
+    width: 800px;
+    margin: 50px;
+    margin-left: 0px;
+}
+
+.carousel_caption {
+    display: flex;
+}
+
+.carousel-inner{
+    height: 100%;
+}
+.carousel_image {
+    height: 570px;
+    width: 800px;
+    object-fit: cover;
+}
+
+.play_circle{
+    width: 100px;
+    height: 100px;
+}
+
+.play_circle:hover {
+    color: rgb(245, 197, 24);
+}
+
+.carousel-control-prev-icon {
+    border: 2px solid white;
+    padding: 30px 20px 30px 20px;
+    border-radius: 5px;
+}
+
+.carousel-control-next-icon:hover {
+    background-color: rgb(245, 197, 24);
+}
+
+.carousel-control-prev-icon:hover {
+    background-color: rgb(245, 197, 24);
+}
+
+.carousel-control-next-icon {
+    border: 2px solid white;
+    padding: 30px 20px 30px 20px;
+    border-radius: 5px;
+}
+
+.sr-only {
+    display: none;
+}
+
+.side_scroll_list {
+    float: right;
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 400px;
+    /*background-color: rgba(0, 0, 0, 0);*/
+}
+
+.side_scroll_item {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 15px;
+    padding-bottom: 0px;
+    background-color: #111519;
+}
+
+.side_scroll_image {
+    height: 150px;
+    width: 100px;
+}
+
+.side_scroll_movie_title {
+    color: white;
+    margin: 10px;
+}
+
+.next_label {
+    color: #f3d078;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.trailers_label {
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.trailers_label:hover {
+    color: #f3d078;
+}
+
+.side_scroll_movie_description {
+    color: white;
+    margin: 10px;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}

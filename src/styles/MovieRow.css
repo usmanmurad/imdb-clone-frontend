@@ -1,0 +1,118 @@
+
+.row {
+    margin-left: 12%;
+    width: 60%;
+}
+
+.row_title {
+    color: #f3d078;
+    font-weight: bolder;
+}
+
+.row_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row_posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row_poster {
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    /*margin-right: 10px;*/
+    transition: transform 450ms;
+}
+
+/*.row_poster:hover {*/
+/*    transform: scale(1.08);*/
+/*}*/
+
+.row_posterLarge {
+    object-fit: contain;
+    width: 100%;
+    max-height: 250px;
+    /*margin-right: 10px;*/
+    /*transition: transform 450ms;*/
+}
+
+/*.row_posterLarge:hover {*/
+/*    transform: scale(1.09);*/
+/*}*/
+
+.movie_container {
+    margin-right: 10px;
+    /*border: 1px solid gray;*/
+    transition: transform 450ms;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.row_details {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie_container:hover {
+    transform: scale(1.09);
+}
+
+.movie_image {
+    width: 150px;
+    height: 300px;
+}
+
+.movie_rating {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.movie_title {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: large;
+    font-weight: normal;
+}
+
+.movie_title:hover {
+    text-decoration: underline;
+}
+
+.watchlist_button {
+    background-color: #111;
+    border: none;
+    color: rgb(87, 153, 239);
+    background-color: rgba(255, 255, 255, 0.08);
+    margin: 0px 5px 0px 5px;
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px;
+}
+
+.watchlist_button:hover {
+    background-color: #212529;
+}
+
+.yellow_star {
+    color: #f3d078;
+    margin-right: 5px;
+}
+
+.rating_star {
+    color: rgb(87, 153, 239);
+    border: none;
+    border-radius: 5px;
+    background-color: #111;
+    padding: 5px 15px 5px 15px;
+    margin-left: 5px;
+}
+
+.rating_star:hover {
+    background-color: #212529;
+}
